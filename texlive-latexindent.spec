@@ -6,7 +6,7 @@
 # catalog-version 1.1R
 Name:		texlive-latexindent
 Version:	1.1R
-Release:	1
+Release:	2
 Summary:	Indent a LaTeX document, highlighting the programming structure
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/latexindent
@@ -17,7 +17,7 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
-Requires:	texlive-latexindent.bin
+Provides:	texlive-latexindent.bin = %{EVRD}
 
 %description
 The Perl script (also available as a windows executable)
@@ -34,6 +34,7 @@ structure for the reader.
 
 #-----------------------------------------------------------------------
 %files
+%{_bindir}/latexindent
 %{_texmfdistdir}/scripts/latexindent/defaultSettings.yaml
 %{_texmfdistdir}/scripts/latexindent/latexindent.pl
 %doc %{_texmfdistdir}/doc/support/latexindent/README
@@ -78,5 +79,9 @@ structure for the reader.
 %build
 
 %install
+mkdir -p %{buildroot}%{_bindir}
+pushd %{buildroot}%{_bindir}
+    ln -sf %{_texmfdistdir}/scripts/latexindent/latexindent.pl latexindent
+popd
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf-dist %{buildroot}%{_datadir}
