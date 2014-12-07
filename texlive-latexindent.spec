@@ -6,7 +6,7 @@
 # catalog-version 1.1R
 Name:		texlive-latexindent
 Version:	1.1R
-Release:	8
+Release:	9
 Summary:	Indent a LaTeX document, highlighting the programming structure
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/latexindent
