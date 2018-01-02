@@ -1,12 +1,6 @@
-# revision 32228
-# category Package
-# catalog-ctan /support/latexindent
-# catalog-date 2013-11-18 13:22:51 +0100
-# catalog-license gpl3
-# catalog-version 1.1R
 Name:		texlive-latexindent
-Version:	1.1R
-Release:	10
+Version:	3.3
+Release:	1
 Summary:	Indent a LaTeX document, highlighting the programming structure
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/latexindent
@@ -35,42 +29,8 @@ structure for the reader.
 #-----------------------------------------------------------------------
 %files
 %{_bindir}/latexindent
-%{_texmfdistdir}/scripts/latexindent/defaultSettings.yaml
-%{_texmfdistdir}/scripts/latexindent/latexindent.pl
-%doc %{_texmfdistdir}/doc/support/latexindent/README
-%doc %{_texmfdistdir}/doc/support/latexindent/documentation/manual.pdf
-%doc %{_texmfdistdir}/doc/support/latexindent/documentation/manual.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/indent.yaml
-%doc %{_texmfdistdir}/doc/support/latexindent/success/bigTest.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/braceTest.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/braceTestsmall.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/environments.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/filecontents.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/matrix.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/nestedalignment.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/nestedalignment1.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/outputfile.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/preamble.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/pstricks1.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/pstricks2.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/pstricks3.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/sampleAFTER.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/sampleBEFORE.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/stylefile.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/table1.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/table2.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/table3.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/testHeadings.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/testHeadings1.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/theorem.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/tikz1.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/tikz2.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/tikz3.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/tikz4.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/tikz5.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/torusPGF.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/torusPSTricks.tex
-%doc %{_texmfdistdir}/doc/support/latexindent/success/trailingComments.tex
+%{_texmfdistdir}/scripts/latexindent
+%doc %{_texmfdistdir}/doc/support/latexindent
 
 #-----------------------------------------------------------------------
 %prep
