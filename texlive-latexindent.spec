@@ -1,6 +1,6 @@
 Name:		texlive-latexindent
-Version:	3.4.3
-Release:	2
+Version:	3.5.3
+Release:	1
 Summary:	Indent a LaTeX document, highlighting the programming structure
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/latexindent
