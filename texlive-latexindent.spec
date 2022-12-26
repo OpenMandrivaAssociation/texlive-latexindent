@@ -1,5 +1,5 @@
 Name:		texlive-latexindent
-Version:	64874
+Version:	65208
 Release:	1
 Summary:	Indent a LaTeX document, highlighting the programming structure
 Group:		Publishing
