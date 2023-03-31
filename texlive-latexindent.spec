@@ -1,6 +1,6 @@
 Name:		texlive-latexindent
 Version:	65208
-Release:	1
+Release:	2
 Summary:	Indent a LaTeX document, highlighting the programming structure
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/latexindent
