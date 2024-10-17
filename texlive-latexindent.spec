@@ -3,7 +3,7 @@ Version:	71840
 Release:	1
 Summary:	Indent a LaTeX document, highlighting the programming structure
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/support/latexindent
+URL:		https://www.ctan.org/tex-archive/support/latexindent
 License:	GPL3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latexindent.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latexindent.doc.r%{version}.tar.xz
