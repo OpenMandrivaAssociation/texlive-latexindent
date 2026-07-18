@@ -1,5 +1,6 @@
 %global tl_name latexindent
 %global tl_revision 79306
+%global tl_bin_links latexindent:%{_texmfdistdir}/scripts/latexindent/latexindent.pl
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(latexindent.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 The Perl script processes a LaTeX file, indenting parts so as to
